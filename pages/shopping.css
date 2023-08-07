@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+:root {
+  --Paleorange: hsl(25, 100%, 94%);
+  --Orange: hsl(26, 100%, 55%);
+  --Very-dark-blue: hsl(220, 13%, 13%);
+  --Dark-grayish-blue: hsl(219, 9%, 45%);
+  --Grayish-blue: hsl(220, 14%, 75%);
+  --Light-grayish-blue: hsl(223, 64%, 98%);
+  --White: hsl(0, 0%, 100%);
+  --Black: rgba(0, 0, 0);
+  --Lightbox: rgba(0, 0, 0, 0.75);
+}
+.modal_shopping {
+  display: none;
+  width: 20vw;
+  position: absolute;
+  right: -50px;
+  top: 80px;
+  border-radius: 8px;
+  z-index: 10;
+  background-color: var(--White);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.modal_shopping h3 {
+  padding: 20px;
+  border-bottom: 2px solid var(--Light-grayish-blue);
+}
+.content {
+  text-align: center;
+  padding: 50px 20px;
+}

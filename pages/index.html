@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product List</title>
+    <link rel="stylesheet" href="./productDetail.css" />
+    <link rel="stylesheet" href="./productList.css" />
+    <link rel="stylesheet" href="shopping.css" />
+  </head>
+  <body>
+    <header>
+      <!-- // Para ingresar al link y pasar de pagina// -->
+      <nav>
+        <img src="../images/logo.svg" alt="LOGO" />
+        <a href="/pages">Collections</a>
+        <a href="/pages/?collection=men">Men</a>
+        <a href="/pages/?collection=women">Women</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+      <div class="ImgHeader">
+        <button class="shopping-cart">
+          <img
+            class="cart-nav"
+            src="../images/icon-cart.svg"
+            alt="CARRO DE COMPRAS"
+          />
+        </button>
+        <aside>
+          <div id="cartItemList" class="content"> </div>
+        </aside>
+        <img
+          class="ImgAvatar"src="../images/image-avatar.png"alt="IMAGEN DE AVATAR"/>
+      </div>
+    </header>
+    <hr />
+    <main class="main">
+      <ul class="shoes-container"></ul>
+    </main>
+    <script type="module" src="./productList.js"></script>
+    <script type="module" src="../services/shopping.js"></script>
+  </body>
+</html>

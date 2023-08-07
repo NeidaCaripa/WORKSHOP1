@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPRINT2</title>
+    <link rel="stylesheet" href="productDetail.css" />
+    <link rel="stylesheet" href="shopping.css" />
+  </head>
+  <body>
+    <header>
+      <!-- // Para ingresar al link y pasar de pagina// -->
+      <nav>
+        <img src="../images/logo.svg" alt="LOGO" />
+        <a href="/pages">Collections</a>
+        <a href="/pages/?collection=men">Men</a>
+        <a href="/pages/?collection=women">Women</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+      <div class="ImgHeader">
+        <button class="shopping-cart">
+          <img class="cart-nav" src="../images/icon-cart.svg"alt="CARRO DE COMPRAS"/>
+        </button>
+        <aside class="modal_shopping">
+          <h3>Cart</h3>
+          <div id="cartItemList" class="content">
+          <button id="checkaut" class="hiden">Checkaut</button> </div>
+        </aside>
+        <img class="ImgAvatar" src="../images/image-avatar.png" alt="IMAGEN DE AVATAR"/>
+      </div>
+    </header>
+    <hr/>
+    <main>
+      <article>
+        <img class="ImgPrincipal" src="../images/picture-filled.svg"alt="Imgen Grande"/>
+        <figure class="miniaturas">
+          <img id="min1" src="" alt="miniatura" class="miniImg" />
+          <img id="min2" src="" alt="miniatura" class="miniImg" />
+          <img id="min3" src="" alt="miniatura" class="miniImg" />
+          <img id="min4" src="" alt="miniatura" class="miniImg" />
+        </figure>
+      </article>
+      <section>
+        <span class="Titulo1">Sneaker Company</span>
+        <h1 class="shoe-name">
+          Fall Limited Edition <br />
+          Sneakers
+        </h1>
+        <p>
+          These low-profile sneakers are your perfect casual wear <br />
+          companion. Featuring a durable rubber outer sole, they’ll <br />
+          withstand everything the weather can offer.
+        </p>
+        <span class="Precio"> $125.00 <strong>50%</strong></span>
+        <span class="Precio2"> $250.00 </span>
+        <div class="Botones">
+          <div class="Contador">
+            <button id="restar" class="calcButton">
+              <img src="../images/icon-minus.svg" alt="minus" />
+            </button>
+            <span id="contador">1</span>
+            <button id="sumar" class="calcButton">
+              <img src="../images/icon-plus.svg" alt="plus" />
+            </button>
+          </div>
+          <button class="Carrito" id="addToCart">
+            <img class="cart-button" src="../images/icon-cart.svg" alt="Carro"
+            />
+            <span>Add to cart</span>
+          </button>
+        </div>
+        <form class="formulario-check" id="form">
+          <h2>REGISTRAR COMPRA</h2>
+          <label class="nombre">Nombre:</label>
+          <input name="nombre" type="text" id="nombre"></input>
+          <label class="cedula">Cédula:</label>
+          <input name="cedula" type="text" id="cedula"></input>
+      
+          <label class="tarjeta-C">Tarjeta de Crédito:</label>
+          <input  name="tarjetaDeCredito" type="text" id="tarjetaDeCredito"></input>
+      
+          <button class="botonFormulario" id="botonFormulario" type="submit">Enviar</button>
+        </form>
+      </section>
+      <!-- El modal-->
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <img id="modal_img__main" class="ImgPrincipal" />
+          <figure class="modal_miniaturas">
+            <div class="imgBg">
+              <img id="modalMini1" class="miniImg" />
+            </div>
+            <div class="imgBg">
+              <img id="modalMini2" class="miniImg" />
+            </div>
+            <div class="imgBg">
+              <img id="modalMini3" class="miniImg" />
+            </div>
+            <div class="imgBg">
+              <img id="modalMini4" class="miniImg" />
+            </div>
+          </figure>
+        </div>
+      </div>
+
+      <!-- Fin del modal-->
+      <!--Formulario de checkout-->
+    </main>
+    <script type="module" src="./productDetail.js"></script>
+    <script type="module" src="../services/shopping.js"></script>
+  </body>
+</html>
