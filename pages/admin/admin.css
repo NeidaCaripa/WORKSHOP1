@@ -1,0 +1,18 @@
+form{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 500px;
+    margin-top: 150px;
+    
+}
+
+button{
+    background-color: rgb(226, 208, 208);
+    border-radius: 5%;
+    
+}
