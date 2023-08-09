@@ -21,6 +21,20 @@
         <input type="password" placeholder="Ingrese su contraseña" id="password">
         <button type="submit">Enviar</button>
     </form>
+    <button id="btnNew" class="hiden">Agregar Producto</button>
+    <article class="hiden" id="addForm">
+    <form id="form" >
+        <input type="text" placeholder="Nombre" name="nombre">
+        <input type="text" placeholder="Precio" name="precio">
+        <input type="text" placeholder="Colección" name="coleccion">
+        <input type="url" placeholder="Imagen 1" name="imagen0">
+        <input type="url" placeholder="Imagen 2" name="imagen1">
+        <input type="url" placeholder="Imagen 3" name="imagen2">
+        <input type="url" placeholder="Imagen 4" name="imagen3">
+        <input type="url" placeholder="Imagen 5" name="imagen4">
+        <button type="submit" class="btnSubmit">Guardar</button>
+    </form>
+</article>
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script type="module" src="admin.js"></script>

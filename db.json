@@ -130,6 +130,17 @@
       "imagen2": "https://vansco.vteximg.com.br/arquivos/ids/305119-1200-1200/VN0A4BX5CRM-3.jpg?v=638215984763600000",
       "imagen3": "https://vansco.vteximg.com.br/arquivos/ids/305120-1200-1200/VN0A4BX5CRM-4.jpg?v=638215984925500000",
       "imagen4": "https://vansco.vteximg.com.br/arquivos/ids/305117-1200-1200/VN0A4BX5CRM-1.jpg?v=638215984410200000"
+    },
+    {
+      "nombre": "sandalias new",
+      "precio": "200000",
+      "coleccion": "women",
+      "imagen0": "https://http2.mlstatic.com/D_NQ_NP_648170-MCO69803027346_062023-O.webp",
+      "imagen1": "https://http2.mlstatic.com/D_NQ_NP_933124-MCO69819424011_062023-O.webp",
+      "imagen2": "https://http2.mlstatic.com/D_NQ_NP_976562-MCO69802781568_062023-O.webp",
+      "imagen3": "https://http2.mlstatic.com/D_NQ_NP_924636-MCO69803027344_062023-O.webp",
+      "imagen4": "https://http2.mlstatic.com/D_NQ_NP_755035-MCO69802692302_062023-O.webp",
+      "id": 13
     }
   ],
   "shopping": [

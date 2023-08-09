@@ -16,3 +16,6 @@ button{
     border-radius: 5%;
     
 }
+.hiden{
+    display: none;
+}
