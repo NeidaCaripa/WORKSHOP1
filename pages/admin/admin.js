@@ -174,7 +174,7 @@ const addProducto = async (e) => {
               console.log(response);
           
     
-      // ... Resto de tu código de edición ...
+    
   
       // nombreProducto = '';
       // precioProducto = '';
