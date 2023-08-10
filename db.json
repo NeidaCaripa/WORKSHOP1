@@ -1,7 +1,6 @@
 {
   "productos": [
     {
-      "id": 1,
       "nombre": "Air Jordan 7 Retro",
       "precio": "560000",
       "coleccion": "men",
@@ -9,10 +8,10 @@
       "imagen1": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/156e79df-2bf1-4295-82d4-ea439b1ce904/calzado-air-jordan-7-retro-7Zr804.png",
       "imagen2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a5623423-e97b-4544-b787-ad070d153295/calzado-air-jordan-7-retro-7Zr804.png",
       "imagen3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6f0a7d7e-e744-49e9-add3-44bc807e23cb/calzado-air-jordan-7-retro-7Zr804.png",
-      "imagen4": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/cb6d50cd-9128-445b-9091-c183f28b5a3f/calzado-air-jordan-7-retro-7Zr804.png"
+      "imagen4": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/cb6d50cd-9128-445b-9091-c183f28b5a3f/calzado-air-jordan-7-retro-7Zr804.png",
+      "id": 1
     },
     {
-      "id": 2,
       "nombre": "Nike Air VaporMax 2023 Flyknit",
       "precio": "550000",
       "coleccion": "women",
@@ -20,10 +19,10 @@
       "imagen1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8e3735b2-fb08-4d6e-81e7-c49afedad951/calzado-air-vapormax-2023-flyknit-HtMgGW.png",
       "imagen2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9b245af6-26b7-4d0a-9097-79287db8618a/calzado-air-vapormax-2023-flyknit-HtMgGW.png",
       "imagen3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f7e8322b-3dec-4fa7-a6a5-6e5b40384040/calzado-air-vapormax-2023-flyknit-HtMgGW.png",
-      "imagen4": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9f291eab-673a-4823-b20c-7cd61e52d9ca/calzado-air-vapormax-2023-flyknit-HtMgGW.png"
+      "imagen4": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9f291eab-673a-4823-b20c-7cd61e52d9ca/calzado-air-vapormax-2023-flyknit-HtMgGW.png",
+      "id": 2
     },
     {
-      "id": 3,
       "nombre": "Nike Air Max Solo",
       "precio": "450000",
       "coleccion": "men",
@@ -31,10 +30,10 @@
       "imagen1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/47e49fad-0ccb-4bc8-8e8f-f012f77741ca/calzado-air-max-solo-4SzqpT.png",
       "imagen2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/95d6cdba-a527-438e-b864-c99297961b4e/calzado-air-max-solo-4SzqpT.png",
       "imagen3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/60b49213-cab7-491b-8c44-0d23309e9108/calzado-air-max-solo-4SzqpT.png",
-      "imagen4": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b197ad87-3cba-46ac-855b-de9b4c6ded82/calzado-air-max-solo-4SzqpT.png"
+      "imagen4": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b197ad87-3cba-46ac-855b-de9b4c6ded82/calzado-air-max-solo-4SzqpT.png",
+      "id": 3
     },
     {
-      "id": 4,
       "nombre": "TENIS CLÁSICOS BLANCOS CLASSIC SLIP-ON HARIBO VANS",
       "precio": "449000",
       "coleccion": "women",
@@ -42,10 +41,10 @@
       "imagen1": "https://vansco.vteximg.com.br/arquivos/ids/308775-1200-1200/VN0A7Q5DBMB-2.jpg?v=638236702831170000",
       "imagen2": "https://vansco.vteximg.com.br/arquivos/ids/309661-1200-1200/VN0A7Q5DBMB-3.jpg?v=638236705407730000",
       "imagen3": "https://vansco.vteximg.com.br/arquivos/ids/310458-1200-1200/VN0A7Q5DBMB-4.jpg?v=638236707660800000",
-      "imagen4": "https://vansco.vteximg.com.br/arquivos/ids/307914-1200-1200/VN0A7Q5DBMB-1.jpg?v=638236700243170000"
+      "imagen4": "https://vansco.vteximg.com.br/arquivos/ids/307914-1200-1200/VN0A7Q5DBMB-1.jpg?v=638236700243170000",
+      "id": 4
     },
     {
-      "id": 5,
       "nombre": "TENIS SKATE SUELA DE GOMA MARRONES ROWAN HOMBRE VANS",
       "precio": "479000",
       "coleccion": "men",
@@ -53,7 +52,8 @@
       "imagen1": "https://vansco.vteximg.com.br/arquivos/ids/290520-1200-1200/VN0A5JIC3PA-2.jpg?v=638144970209070000",
       "imagen2": "https://vansco.vteximg.com.br/arquivos/ids/291278-1200-1200/VN0A5JIC3PA-3.jpg?v=638144973582000000",
       "imagen3": "https://vansco.vteximg.com.br/arquivos/ids/292015-1200-1200/VN0A5JIC3PA-4.jpg?v=638144976908470000",
-      "imagen4": "https://vansco.vteximg.com.br/arquivos/ids/293009-1200-1200/VN0A5JIC3PA-6.jpg?v=638144981714830000"
+      "imagen4": "https://vansco.vteximg.com.br/arquivos/ids/293009-1200-1200/VN0A5JIC3PA-6.jpg?v=638144981714830000",
+      "id": 5
     },
     {
       "id": 6,
@@ -100,17 +100,6 @@
     },
     {
       "id": 10,
-      "nombre": "Nike Air Huarache Craft",
-      "precio": "560000",
-      "coleccion": "women",
-      "imagen0": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6eff4067-24d3-47d8-b524-6553d17ba71f/calzado-air-huarache-craft-Cp4dSR.png",
-      "imagen1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/74630757-5918-4710-a7bb-5531724a9db5/calzado-air-huarache-craft-Cp4dSR.png",
-      "imagen2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/24514283-d585-4e1f-805b-636074f27ac4/calzado-air-huarache-craft-Cp4dSR.png",
-      "imagen3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8037236a-a926-4398-b5d4-902a92093112/calzado-air-huarache-craft-Cp4dSR.png",
-      "imagen4": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/425fb6a0-bbe4-44a2-b98d-0ced06e6c19c/calzado-air-huarache-craft-Cp4dSR.png"
-    },
-    {
-      "id": 11,
       "nombre": "Luka 1",
       "precio": "760000",
       "coleccion": "men",
@@ -121,7 +110,7 @@
       "imagen4": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d8fd5e59-f6a8-4a9c-bbb8-2c8d74afdca9/calzado-de-b%C3%A1squetbol-luka-1-69X9Vs.png"
     },
     {
-      "id": 12,
+      "id": 11,
       "nombre": "TENIS SURF MULTICOLOR AUTHENTIC VR3 SF MAMI WATA VANS",
       "precio": "560000",
       "coleccion": "women",
@@ -140,6 +129,17 @@
       "imagen2": "https://http2.mlstatic.com/D_NQ_NP_976562-MCO69802781568_062023-O.webp",
       "imagen3": "https://http2.mlstatic.com/D_NQ_NP_924636-MCO69803027344_062023-O.webp",
       "imagen4": "https://http2.mlstatic.com/D_NQ_NP_755035-MCO69802692302_062023-O.webp",
+      "id": 12
+    },
+    {
+      "nombre": "Zapatillas de running para hombre",
+      "precio": "700000",
+      "coleccion": "men",
+      "imagen0": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8463e545-701f-496d-a794-3bf38910d604/infinityrn-4-mens-road-running-shoes-4hKwJW.png",
+      "imagen1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/293421b2-5418-4bd0-9880-a6fb9a21f9b0/infinityrn-4-mens-road-running-shoes-4hKwJW.png",
+      "imagen2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/32371a32-210d-4970-806a-7786cf9e9ddf/infinityrn-4-mens-road-running-shoes-4hKwJW.png",
+      "imagen3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a70b5798-459a-497c-949f-f88efe13d667/infinityrn-4-mens-road-running-shoes-4hKwJW.png",
+      "imagen4": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2b5151bd-a166-4faf-81e9-c2688ac3c1b6/infinityrn-4-mens-road-running-shoes-4hKwJW.png",
       "id": 13
     }
   ],
@@ -197,6 +197,42 @@
       "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/427142af-e5b4-4fcf-8390-70eb4d53ecbb/calzado-air-vapormax-2023-flyknit-HtMgGW.png",
       "total": 275000,
       "id": 6
+    },
+    {
+      "idProduct": 1,
+      "name": "Air Jordan 7 Retro",
+      "price": 280000,
+      "quantity": 1,
+      "image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2c388aed-1ee9-470d-b484-19292e29b292/calzado-air-jordan-7-retro-7Zr804.png",
+      "total": 280000,
+      "id": 7
+    },
+    {
+      "idProduct": 1,
+      "name": "Air Jordan 7 Retro",
+      "price": 280000,
+      "quantity": 1,
+      "image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2c388aed-1ee9-470d-b484-19292e29b292/calzado-air-jordan-7-retro-7Zr804.png",
+      "total": 280000,
+      "id": 8
+    },
+    {
+      "idProduct": 15,
+      "name": "Nike GT Salto 2",
+      "price": 250000,
+      "quantity": 1,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/8886a662-ea69-4679-b841-7e840af2498f/gt-jump-2-mens-basketball-shoes-7Nc1N1.png",
+      "total": 250000,
+      "id": 9
+    },
+    {
+      "idProduct": 2,
+      "name": "Nike Air VaporMax 2023 Flyknit",
+      "price": 275000,
+      "quantity": 1,
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/427142af-e5b4-4fcf-8390-70eb4d53ecbb/calzado-air-vapormax-2023-flyknit-HtMgGW.png",
+      "total": 275000,
+      "id": 10
     }
   ],
   "compraUsuario": [

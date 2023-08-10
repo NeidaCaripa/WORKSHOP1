@@ -27,6 +27,9 @@ const usuarios= [
     contrasena: 123456
   }];
 
+  const showForm = () =>{
+    addForm.style.display= "block"
+  }
 
   form.addEventListener("submit", function (event) {
     event.preventDefault();
@@ -48,8 +51,6 @@ const usuarios= [
   });
   
   
-
-
 const card = document.querySelector(".shoes-container");
 
 const url = window.location.search;
@@ -68,6 +69,7 @@ async function listProducts(collection) {
                 <p class="shoe-collection">${product.coleccion}</p>
                 <p class="shoe-price">${product.precio} COP</p>
             </li>
+            <button class="btnEdit" type="button" name="${product.id}">Editar</button>
             <button class="btnDelete" name="${product.id}">Eliminar</button>
         </article>
         `;
@@ -75,7 +77,17 @@ async function listProducts(collection) {
     }
   });
 
+  const btnEdit = document.getElementsByClassName('btnEdit');
   const btnDelete = document.getElementsByClassName('btnDelete');
+
+  Array.from(btnEdit).forEach((element) => {
+    element.addEventListener('click', (e) => {
+    let id = e.target.getAttribute('name');
+    console.log(id)
+    editProducto(id)
+    
+    })
+  });
 
   Array.from(btnDelete).forEach((element) => {
     let id = element.getAttribute('name');
@@ -114,16 +126,67 @@ const addProducto = async (e) => {
   
     try {
       const response = await axios.post(`${URL}/productos`, updatedData);
-      console.log('Producto agreado:', response.data);
+      alert('Producto agreado:', response.data);
       console.log(response);
     } catch (error) {
       console.log(error);
     }
-  
+    listProducts(currentCollection);
   }
-  formAdd.addEventListener('submit', addProducto)
+  formAdd.addEventListener('submit', addProducto);
   
-  const showForm = () =>{
-    addForm.style.display= "block"
-  }
+  
   btnNew.addEventListener('click', showForm);
+
+
+  const editProducto = async ( id ) => { 
+  
+    try {
+      showForm();
+      const  response  = await axios.get(`${URL}/productos/${id}`);
+      console.log(response)
+    const productToEdit = response.data
+      console.log("Zapato", productToEdit.nombre)
+    
+    
+            nombreProducto.value = productToEdit.nombre;
+            precioProducto.value = productToEdit.precio;
+            tipoColleccion.value = productToEdit.coleccion;
+            imagen0.value = productToEdit.imagen0;
+            imagen1.value = productToEdit.imagen1;
+            imagen2.value = productToEdit.imagen2;
+            imagen3.value = productToEdit.imagen3;
+            imagen4.value = productToEdit.imagen4;
+  
+            const updatedData = {
+              "nombre": nombreProducto.value,
+              "precio": precioProducto.value,
+              "coleccion": tipoColleccion.value,
+              "imagen0": imagen0.value,
+              "imagen1": imagen1.value,
+              "imagen2": imagen2.value,
+              "imagen3": imagen3.value,
+              "imagen4": imagen4.value
+            };
+          
+              const putResponse = await axios.put(`${URL}/productos/${id}`, updatedData);
+              console.log('Producto editado:', putResponse.data);
+              console.log(response);
+          
+    
+      // ... Resto de tu código de edición ...
+  
+      // nombreProducto = '';
+      // precioProducto = '';
+      // tipoColleccion = '';
+      // imagen0.value = '';
+      // imagen1.value = '';
+      // imagen2.value = '';
+      // imagen3.value = '';
+      // imagen4.value = '';
+    } catch (error) {
+      console.log(error);
+  }
+  listProducts(currentCollection);
+
+  };
